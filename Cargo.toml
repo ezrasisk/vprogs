@@ -6,6 +6,7 @@ default-members = [
   "state/*",
   "storage/*",
   "transaction-runtime/*",
+  "dsl/*", 
 ]
 exclude = []
 members = [
@@ -15,6 +16,7 @@ members = [
   "state/*",
   "storage/*",
   "transaction-runtime/*",
+  "dls/*",
 ]
 resolver = "3"
 
