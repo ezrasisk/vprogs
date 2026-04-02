@@ -1,0 +1,17 @@
+[package]
+name = "vprogs-dsl-resource"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Resource derive macro and types for vprogs-dsl"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { workspace = true, features = ["full", "parsing", "derive"] }
+quote = { workspace = true }
+proc-macro2 = { workspace = true }
+
+vprogs-core = { path = "../../core" }
+vprogs-transaction-runtime = { path = "../../transaction-runtime" }
