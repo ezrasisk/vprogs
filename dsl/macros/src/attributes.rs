@@ -1,3 +1,4 @@
+// dsl/macros/src/attributes.rs
 use syn::{Attribute, Meta, NestedMeta};
 
 #[derive(Debug, Default)]
